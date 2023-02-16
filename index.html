@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Código QR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+	<script defer src="app.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary mb-5" style="background: #1b1b1b !important;">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1" style="color: #fff !important">Generador de Código QR</span>
+        </div>
+      </nav>
+    <div class="contenedor">
+        <form action="" id="formulario" class="formulario">
+            <input type="text" id="link" placeholder="Escribe un texto o URL" />
+            <button class="btnQR" id="btnQR" disabled>Generar QR</button>
+        </form>
+
+        <div id="contenedorQR" class="contenedorQR"></div>
+
+    </div>
+
+    <!-- <footer>
+        <p>Sitio diseñado por <a href="https//florenciaisagalindo.com.ar">Florencia Isa Galindo</a></p>
+      </footer> -->
+
+
+        <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+                <p>Sitio diseñado por <a href="https://florenciaisagalindo.com.ar" target="_blank">Florencia Isa Galindo</a></p>
+
+              
+          </div>
+        </div>
+  </footer>
+</body>
+</html>

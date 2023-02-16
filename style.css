@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	/* box-sizing: border-box; */
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+	max-width: 90%;
+	width: 400px;
+	margin: auto auto;
+}
+
+.formulario input[type='text'] {
+	padding: 20px;
+	border: none;
+	/* //background: #fff; */
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.formulario .btnQR {
+	width: 100%;
+	border: none;
+	background: rgb(0, 0, 0);
+	color: #fff;
+	cursor: pointer;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.formulario .btnQR:hover, .btnDescarga:hover{
+	background: #3e14b2;
+}
+
+.formulario .btnQR:disabled{
+    background: gainsboro;
+    color: grey;
+}
+.contenedorQR {
+	display: flex;
+	justify-content: center;
+	padding: 40px 0;
+    flex-flow: column;
+    align-items: center;
+}
+
+.btnDescarga{
+    justify-content: center;
+    border: none;
+	background: rgb(0, 0, 0);
+	color: #fff;
+	cursor: pointer;
+    padding: 9px;
+    font-size: 15px;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif; 
+    margin-top: 1rem;
+}
+
+footer {    
+    background-color: #1b1b1b;
+    position: fixed; 
+    bottom:0; 
+    width: 100%;
+    text-align: center;
+    color: #fff;
+
+}
+footer a {
+    color: #7BB8D5;
+    text-decoration: none;
+}
